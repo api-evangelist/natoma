@@ -1,0 +1,29 @@
+generated: '2026-07-20'
+method: searched
+source: live probe of /.well-known/ on Natoma hosts
+host: https://api.natoma.app
+documents:
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: natoma-oauth-authorization-server.json
+  note: RFC 8414 OAuth 2.1 Authorization Server metadata for the Natoma MCP platform (issuer https://api.natoma.app/oauth); advertises Dynamic Client Registration (RFC 7591) and PKCE S256.
+- path: /.well-known/oauth-protected-resource
+  status: 404
+- path: /.well-known/openid-configuration
+  host: https://natoma.ai
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  host: https://natoma.ai
+  status: 404
+- path: /.well-known/security.txt
+  host: https://natoma.ai
+  status: 404
+- path: /.well-known/security.txt
+  host: https://docs.natoma.ai
+  status: 404
+- path: /.well-known/api-catalog
+  host: https://natoma.ai
+  status: 404
+- path: /.well-known/ai-plugin.json
+  host: https://natoma.ai
+  status: 404

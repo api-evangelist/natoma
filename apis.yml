@@ -1,8 +1,27 @@
 aid: natoma
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/natoma.png
 name: Natoma
-description: 'Natoma is a company surfaced as a portfolio company of greylock, index-ventures, norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Natoma is an enterprise Model Context Protocol (MCP) platform that lets
+  organizations securely connect AI agents and assistants (ChatGPT, Claude, Cursor,
+  and internal agents) to company data and business tools. It provides one-click deployment
+  of managed and remote MCP servers, a catalog of 100+ verified MCP server connectors
+  with automatic authentication, centralized identity-aware access controls, role-based
+  tool profiles, shadow-AI discovery, and audit trails with SIEM integration. Natoma
+  is a cybersecurity company backed by Greylock, Index Ventures, and Norwest Venture
+  Partners. It is SOC 2 certified and GDPR/CCPA compliant, with SSO/SCIM provisioning
+  via Microsoft Entra and Okta and on-premises deployment options.'
 url: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Cybersecurity
+- Model Context Protocol
+- MCP
+- AI Agents
+- Identity
+- Access Management
+- Governance
+- Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +53,54 @@ maintainers:
 common:
 - type: Website
   url: https://natoma.ai/
+- type: Documentation
+  url: https://docs.natoma.ai
+- type: DeveloperPortal
+  url: https://docs.natoma.ai
+- type: GettingStarted
+  url: https://docs.natoma.ai/connect-to-ai/getting-started
+- type: Blog
+  url: https://natoma.ai/blog
+- type: Pricing
+  url: https://natoma.ai/pricing
+- type: SignUp
+  url: https://natoma.ai/book-a-demo
+- type: Support
+  url: https://docs.natoma.ai/support/contact-us
+- type: StatusPage
+  url: https://natomalabs.statuspage.io/
+- type: TrustCenter
+  url: security/natoma-trust-center.yml
+- type: Compliance
+  url: https://natoma.ai/trust
+- type: LLMsTxt
+  url: llms/natoma-llms.txt
+- type: DomainSecurity
+  url: security/natoma-domain-security.yml
+- type: TermsOfService
+  url: https://natoma.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://natoma.ai/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/natomalabs
+- type: MCPServer
+  url: mcp/natoma-mcp.yml
+- type: Packages
+  url: packages/natoma-packages.yml
+- type: CLI
+  url: cli/natoma-cli.yml
+- type: Authentication
+  url: authentication/natoma-authentication.yml
+- type: Conformance
+  url: conformance/natoma-conformance.yml
+- type: DataModel
+  url: data-model/natoma-data-model.yml
+- type: Lifecycle
+  url: lifecycle/natoma-lifecycle.yml
+- type: WellKnown
+  url: well-known/natoma-well-known.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 9
+  pass: local-v1

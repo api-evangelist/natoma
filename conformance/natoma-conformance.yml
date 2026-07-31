@@ -1,0 +1,37 @@
+generated: '2026-07-20'
+method: searched
+source: https://api.natoma.app/.well-known/oauth-authorization-server + https://natoma.ai/trust + docs.natoma.ai
+standards:
+- id: mcp
+  conforms: true
+  evidence: Natoma is an MCP platform hosting Model Context Protocol servers and a 100+ connector catalog.
+- id: oauth2
+  conforms: true
+  evidence: RFC 8414 authorization-server metadata advertised at api.natoma.app/.well-known/oauth-authorization-server (authorization_code + refresh_token).
+- id: oauth2-pkce
+  conforms: true
+  evidence: code_challenge_methods_supported includes S256.
+- id: rfc7591-dynamic-client-registration
+  conforms: true
+  evidence: registration_endpoint present in AS metadata.
+- id: rfc8414-as-metadata
+  conforms: true
+  evidence: /.well-known/oauth-authorization-server returns 200.
+- id: saml2-sso
+  conforms: true
+  evidence: SAML 2.0 SSO documented for Microsoft Entra ID and Okta.
+- id: scim2
+  conforms: true
+  evidence: SCIM 2.0 provisioning documented for Entra ID and Okta.
+- id: soc2
+  conforms: true
+  evidence: SOC 2 certification published on natoma.ai and the Vanta trust center.
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliance stated on natoma.ai.
+- id: ccpa
+  conforms: true
+  evidence: CCPA compliance stated on natoma.ai.
+- id: openid-connect
+  conforms: false
+  evidence: no /.well-known/openid-configuration published (404).

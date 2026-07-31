@@ -1,0 +1,185 @@
+# Documentation | Natoma MCP Platform
+
+## Natoma Documentation
+
+- [Welcome](https://docs.natoma.ai/overview/readme.md)
+- [Getting Started](https://docs.natoma.ai/connect-to-ai/getting-started.md): Use Natoma to connect AI to key business tools
+- [Enable Apps](https://docs.natoma.ai/connect-to-ai/getting-started/enable-apps.md): Enable personal connections for an app
+- [Create a Connection](https://docs.natoma.ai/connect-to-ai/getting-started/create-connection.md): Create a personal connection
+- [Configure Your Client](https://docs.natoma.ai/connect-to-ai/getting-started/configure-client.md): Set up your AI client to use Natoma connections
+- [Manage AI Access](https://docs.natoma.ai/docs/manage-ai.md)
+- [Invite Others to Natoma](https://docs.natoma.ai/docs/manage-ai/invite.md)
+- [Shared Access to Connections](https://docs.natoma.ai/docs/manage-ai/shared-access.md)
+- [Distribute Access via Profiles](https://docs.natoma.ai/docs/manage-ai/profiles.md)
+- [Discover AI](https://docs.natoma.ai/docs/manage-ai/discover.md)
+- [Enterprise Capabilities](https://docs.natoma.ai/docs/enterprise.md)
+- [Monitor AI](https://docs.natoma.ai/docs/enterprise/monitor.md)
+- [Granular Access Control](https://docs.natoma.ai/docs/enterprise/granular-access.md)
+- [Secure Access to Natoma](https://docs.natoma.ai/docs/enterprise/secure-access-to-natoma.md)
+- [Entra ID](https://docs.natoma.ai/docs/enterprise/secure-access-to-natoma/entra-sso.md): Configure SAML 2.0 SSO and SCIM provisioning for Natoma using Microsoft Entra (formerly Azure AD).
+- [Manage Natoma Role from Entra ID](https://docs.natoma.ai/docs/enterprise/secure-access-to-natoma/entra-scim-roles.md): Configure SCIM app roles and attribute mapping to provision users with the correct Natoma role from Microsoft Entra ID.
+- [Okta SSO](https://docs.natoma.ai/docs/enterprise/secure-access-to-natoma/okta-sso.md): Configure SAML 2.0 SSO and SCIM provisioning for Natoma using the Okta Integration Network (OIN) application.
+- [Manage Natoma Role from Okta](https://docs.natoma.ai/docs/enterprise/secure-access-to-natoma/okta-scim-groups.md): Configure SCIM attribute mapping and group-based role provisioning between Okta and Natoma.
+- [Custom Apps](https://docs.natoma.ai/docs/custom-apps.md)
+- [Repository](https://docs.natoma.ai/docs/custom-apps/repository.md)
+- [Remote URL](https://docs.natoma.ai/docs/custom-apps/remote-url.md)
+- [Core Concepts](https://docs.natoma.ai/docs/core-concepts.md)
+- [Overview](https://docs.natoma.ai/catalog/_index.md)
+- [Alphabetical](https://docs.natoma.ai/catalog/alphabetical.md)
+- [By Category](https://docs.natoma.ai/catalog/browse-by-category.md)
+- [Contact Us](https://docs.natoma.ai/support/contact-us.md)
+- [Model Context Procotol](https://docs.natoma.ai/resources/editor.md)
+- [MCP Hosts/Clients](https://docs.natoma.ai/resources/markdown.md)
+- [MCP Servers](https://docs.natoma.ai/resources/images-and-media.md)
+- [Gateway](https://docs.natoma.ai/resources/interactive-blocks.md)
+- [Server Registry](https://docs.natoma.ai/resources/openapi.md)
+- [Old Getting Started](https://docs.natoma.ai/resources/old-getting-started.md)
+- [All Apps](https://docs.natoma.ai/apps/apps.md)
+- [Airtable](https://docs.natoma.ai/apps/airtable.md)
+- [Airweave Search](https://docs.natoma.ai/apps/airweave-search.md)
+- [Amplitude](https://docs.natoma.ai/apps/amplitude.md): Connect AI assistants to Amplitude analytics with OAuth.
+- [Apiiro](https://docs.natoma.ai/apps/apiiro.md): Connect AI assistants to Apiiro's application security platform with OAuth.
+- [Asana](https://docs.natoma.ai/apps/asana.md)
+- [Ashby (Natoma)](https://docs.natoma.ai/apps/ashby.md): Connect AI assistants to Ashby ATS using a scoped API key.
+- [Atlassian](https://docs.natoma.ai/apps/atlassian.md)
+- [Atlassian (Remote)](https://docs.natoma.ai/apps/atlassian-remote.md)
+- [AWS CloudWatch](https://docs.natoma.ai/apps/aws-cloudwatch.md)
+- [AWS Cost Explorer](https://docs.natoma.ai/apps/aws-cost-explorer.md)
+- [AWS Documentation](https://docs.natoma.ai/apps/aws-documentation.md)
+- [AWS IAM](https://docs.natoma.ai/apps/aws-iam.md)
+- [Azure DevOps](https://docs.natoma.ai/apps/azure-devops.md): Connect AI assistants to Azure DevOps using your Azure CLI credentials.
+- [BigQuery (Remote)](https://docs.natoma.ai/apps/bigquery-remote.md): Connect AI assistants to Google BigQuery using Google's official remote MCP server, hosted at bigquery.googleapis.com/mcp.
+- [BigQuery (Toolbox)](https://docs.natoma.ai/apps/genai-toolbox-bigquery.md): Connect AI assistants to BigQuery via Google's GenAI Toolbox using a service-account key.
+- [Box (Remote)](https://docs.natoma.ai/apps/box.md)
+- [Brave Search](https://docs.natoma.ai/apps/brave.md)
+- [Buildkite](https://docs.natoma.ai/apps/buildkite.md)
+- [Checkmarx](https://docs.natoma.ai/apps/checkmarx.md): Connect AI assistants to Checkmarx One application security with an API key.
+- [ChEMBL](https://docs.natoma.ai/apps/chembl.md)
+- [Chrome DevTools](https://docs.natoma.ai/apps/chrome-devtools.md): Drive Chrome via the DevTools Protocol from AI assistants.
+- [CircleCI](https://docs.natoma.ai/apps/circleci.md)
+- [ClickUp](https://docs.natoma.ai/apps/clickup.md)
+- [Clojure](https://docs.natoma.ai/apps/clojure.md): Connect AI assistants to a local Clojure REPL and project tooling.
+- [CloudZero](https://docs.natoma.ai/apps/cloudzero.md): Connect AI assistants to CloudZero cloud cost intelligence with OAuth.
+- [Context7](https://docs.natoma.ai/apps/context7.md)
+- [Context7 (Authenticated)](https://docs.natoma.ai/apps/context7-oauth.md): Connect AI assistants to Context7 documentation with authenticated OAuth.
+- [CrowdStrike](https://docs.natoma.ai/apps/crowdstrike.md)
+- [Cyera DataPort](https://docs.natoma.ai/apps/cyera-dataport.md): Connect AI assistants to Cyera DataPort data via Snowflake.
+- [DailyMed](https://docs.natoma.ai/apps/dailymed.md)
+- [Database Universal](https://docs.natoma.ai/apps/database-universal.md): Connect AI assistants to PostgreSQL, MySQL, MariaDB, or Oracle databases.
+- [Databricks](https://docs.natoma.ai/apps/databricks.md)
+- [Datadog](https://docs.natoma.ai/apps/datadog-official.md)
+- [Datadog (Community)](https://docs.natoma.ai/apps/datadog-community.md)
+- [DataForSEO](https://docs.natoma.ai/apps/dataforseo.md)
+- [Dovetail](https://docs.natoma.ai/apps/dovetail.md)
+- [Draw.io](https://docs.natoma.ai/apps/drawio.md): Create and edit Draw.io diagrams from AI assistants.
+- [Dropbox](https://docs.natoma.ai/apps/dropbox.md)
+- [Excalidraw](https://docs.natoma.ai/apps/excalidraw.md): Create and edit Excalidraw diagrams from AI assistants.
+- [Fetch](https://docs.natoma.ai/apps/fetch.md)
+- [Figma Desktop](https://docs.natoma.ai/apps/figma-desktop.md): Connect AI assistants to the Figma Desktop app via its local Dev Mode MCP server.
+- [Filesystem](https://docs.natoma.ai/apps/filesystem.md): Give AI assistants sandboxed read/write access to local directories.
+- [Firecrawl](https://docs.natoma.ai/apps/firecrawl.md)
+- [Fireflies.ai](https://docs.natoma.ai/apps/fireflies.md)
+- [Freshservice](https://docs.natoma.ai/apps/freshservice.md)
+- [FullStory Lexicon](https://docs.natoma.ai/apps/fullstory-lexicon.md): Connect AI assistants to FullStory analytics with an API key.
+- [GenAI Toolbox](https://docs.natoma.ai/apps/genai-toolbox.md): Connect AI assistants to common databases with Google's GenAI Toolbox.
+- [GitHub](https://docs.natoma.ai/apps/github.md)
+- [GitHub (Local)](https://docs.natoma.ai/apps/github-stdio.md): Run a local GitHub MCP server that inherits gh CLI authentication.
+- [GitHub (OAuth)](https://docs.natoma.ai/apps/github-oauth.md): Connect AI assistants to GitHub using OAuth authentication via a GitHub App.
+- [GitLab](https://docs.natoma.ai/apps/gitlab.md)
+- [GitLab (Legacy)](https://docs.natoma.ai/apps/gitlab-legacy.md): Connect AI assistants to GitLab using a personal access token. Use the GitLab (OAuth) variant for new connections.
+- [Glean](https://docs.natoma.ai/apps/glean.md): Connect AI assistants to your Glean instance with OAuth.
+- [Gmail (Natoma)](https://docs.natoma.ai/apps/gmail.md): Connect AI assistants to Gmail to read, search, draft, send, and organize emails through Natoma.
+- [Gong](https://docs.natoma.ai/apps/gong.md)
+- [Gong (Community)](https://docs.natoma.ai/apps/gong-community.md): Connect AI assistants to Gong using API key/secret authentication.
+- [Google Calendar (Natoma)](https://docs.natoma.ai/apps/google-calendar.md): Connect AI assistants to Google Calendar for event management and scheduling through Natoma.
+- [Google Calendar (Official)](https://docs.natoma.ai/apps/google-calendar-v2.md): Connect AI assistants to Google Calendar using Google's official remote MCP server with an admin-supplied OAuth client.
+- [Google Chat](https://docs.natoma.ai/apps/google-chat.md): Connect AI assistants to Google Chat using Google's official remote MCP server with an admin-supplied OAuth client.
+- [Google Docs (Natoma)](https://docs.natoma.ai/apps/google-docs.md): Connect AI assistants to Google Docs for document creation, editing, and management through Natoma.
+- [Google Drive (Natoma)](https://docs.natoma.ai/apps/google-drive.md): Connect AI assistants to Google Drive using Natoma's hosted OAuth MCP server.
+- [Google Drive (Official)](https://docs.natoma.ai/apps/google-drive-v2.md): Connect AI assistants to Google Drive using Google's official remote MCP server with an admin-supplied OAuth client.
+- [Google Forms (Natoma)](https://docs.natoma.ai/apps/google-forms.md): Connect AI assistants to Google Forms for form creation, question management, and response retrieval through Natoma.
+- [Google People](https://docs.natoma.ai/apps/google-people.md): Connect AI assistants to Google People using Google's official remote MCP server with an admin-supplied OAuth client.
+- [Google Sheets (Natoma)](https://docs.natoma.ai/apps/google-sheets.md): Connect AI assistants to Google Sheets for spreadsheet management, data reading and writing through Natoma.
+- [Google Slides (Natoma)](https://docs.natoma.ai/apps/google-slides.md): Connect AI assistants to Google Slides for presentation management, slide reading, and content editing through Natoma.
+- [Google Workspace](https://docs.natoma.ai/apps/google-workspace.md)
+- [Grafana](https://docs.natoma.ai/apps/grafana.md): Connect AI assistants to Grafana using a service account token.
+- [Graphiti](https://docs.natoma.ai/apps/graphiti.md)
+- [Greenhouse](https://docs.natoma.ai/apps/greenhouse.md)
+- [Harness](https://docs.natoma.ai/apps/harness.md)
+- [Honeycomb](https://docs.natoma.ai/apps/honeycomb.md): Connect AI assistants to Honeycomb observability with OAuth.
+- [Hubspot](https://docs.natoma.ai/apps/hubspot.md)
+- [incident.io](https://docs.natoma.ai/apps/incidentio.md): Connect AI assistants to incident.io with OAuth.
+- [Jenkins](https://docs.natoma.ai/apps/jenkins.md)
+- [JFrog](https://docs.natoma.ai/apps/jfrog.md): Connect AI assistants to JFrog Platform using an access token.
+- [Kubernetes](https://docs.natoma.ai/apps/kubernetes.md): Connect AI assistants to Kubernetes clusters using your local kubeconfig.
+- [LaunchDarkly](https://docs.natoma.ai/apps/launchdarkly.md): Connect AI assistants to LaunchDarkly using an API access token.
+- [Linear](https://docs.natoma.ai/apps/linear.md)
+- [Linx Security](https://docs.natoma.ai/apps/linx.md)
+- [Looker (Toolbox)](https://docs.natoma.ai/apps/genai-toolbox-looker.md): Connect AI assistants to Looker via Google's GenAI Toolbox using API3 credentials.
+- [Microsoft 365](https://docs.natoma.ai/apps/microsoft365.md)
+- [Microsoft Graph & ARM](https://docs.natoma.ai/apps/microsoft-graph-and-arm.md): Connect AI assistants to Microsoft Graph and Azure Resource Manager via an Entra app registration.
+- [Miro](https://docs.natoma.ai/apps/miro.md)
+- [Miro (Official)](https://docs.natoma.ai/apps/miro-official.md): Connect AI assistants to Miro's online collaborative whiteboard platform via Miro's official remote MCP server.
+- [Mixpanel](https://docs.natoma.ai/apps/mixpanel.md): Connect AI assistants to Mixpanel product analytics with OAuth.
+- [MongoDB](https://docs.natoma.ai/apps/mongodb.md)
+- [Neon](https://docs.natoma.ai/apps/neon.md)
+- [NetSuite](https://docs.natoma.ai/apps/netsuite.md): Connect AI assistants to your NetSuite account with OAuth.
+- [New Relic](https://docs.natoma.ai/apps/new-relic.md): Connect AI assistants to New Relic observability with OAuth.
+- [NotebookLM](https://docs.natoma.ai/apps/notebooklm.md): Connect AI assistants to NotebookLM via the nlm CLI.
+- [Notion](https://docs.natoma.ai/apps/notion.md)
+- [Okta (Natoma)](https://docs.natoma.ai/apps/okta-natoma.md)
+- [Okta Community](https://docs.natoma.ai/apps/okta-community.md): Connect AI assistants to Okta using an API token.
+- [Oracle DB (Toolbox)](https://docs.natoma.ai/apps/genai-toolbox-oracledb.md): Connect AI assistants to Oracle Database via Google's GenAI Toolbox.
+- [PayPal](https://docs.natoma.ai/apps/paypal.md)
+- [Perplexity Ask](https://docs.natoma.ai/apps/perplexity-ask.md)
+- [Pinecone MCP](https://docs.natoma.ai/apps/pinecone.md)
+- [Playwright](https://docs.natoma.ai/apps/playwright-local.md): Drive a browser via Playwright from AI assistants.
+- [PostgreSQL (Toolbox)](https://docs.natoma.ai/apps/genai-toolbox-postgres.md): Connect AI assistants to PostgreSQL via Google's GenAI Toolbox.
+- [Power BI](https://docs.natoma.ai/apps/power-bi.md): Connect AI assistants to Microsoft Power BI via Microsoft Fabric.
+- [Prisma](https://docs.natoma.ai/apps/prisma.md)
+- [Prometheus](https://docs.natoma.ai/apps/prometheus.md): Connect AI assistants to AWS Managed Prometheus using SigV4 authentication.
+- [PubChem](https://docs.natoma.ai/apps/pubchem.md)
+- [PubMed](https://docs.natoma.ai/apps/pubmed.md)
+- [Redis](https://docs.natoma.ai/apps/redis.md)
+- [Resend](https://docs.natoma.ai/apps/resend.md)
+- [SailPoint](https://docs.natoma.ai/apps/sailpoint.md): Connect AI assistants to SailPoint IdentityNow using an API key.
+- [Salesforce](https://docs.natoma.ai/apps/salesforce.md)
+- [Salesforce (Remote)](https://docs.natoma.ai/apps/salesforce-remote.md): Connect AI assistants to Salesforce using a remote MCP server with admin-supplied OAuth.
+- [Scalr](https://docs.natoma.ai/apps/scalr.md): Connect AI assistants to Scalr Terraform automation using a Personal Access Token.
+- [Select Star](https://docs.natoma.ai/apps/select-star.md)
+- [Semgrep](https://docs.natoma.ai/apps/semgrep.md)
+- [Sentry](https://docs.natoma.ai/apps/sentry.md)
+- [SequentialThinking](https://docs.natoma.ai/apps/sequentialthinking.md)
+- [ServiceNow](https://docs.natoma.ai/apps/servicenow.md)
+- [ServiceNow (Remote)](https://docs.natoma.ai/apps/servicenow-remote.md): Connect AI assistants to ServiceNow using the native remote MCP integration.
+- [Slack (Community)](https://docs.natoma.ai/apps/slack-next.md)
+- [Slack (Official)](https://docs.natoma.ai/apps/slack-remote.md): Connect AI assistants to Slack using a remote MCP server with OAuth authentication.
+- [Slack Community](https://docs.natoma.ai/apps/slack-community.md): Connect AI assistants to Slack using Natoma's hosted community MCP server.
+- [SmartBear](https://docs.natoma.ai/apps/smartbear.md)
+- [Snowflake](https://docs.natoma.ai/apps/snowflake.md): Connect AI assistants to Snowflake using the Cortex Agents MCP server, exposing Cortex Search, Cortex Analyst, and SQL execution over your account's data.
+- [Sonarqube](https://docs.natoma.ai/apps/sonarqube.md)
+- [Sourcebot](https://docs.natoma.ai/apps/sourcebot.md): Connect AI assistants to your Sourcebot instance with OAuth.
+- [Spacelift](https://docs.natoma.ai/apps/spacelift.md)
+- [Spinach](https://docs.natoma.ai/apps/spinach.md): Connect AI assistants to Spinach.ai meeting intelligence with OAuth.
+- [Splunk](https://docs.natoma.ai/apps/splunk.md): Connect AI assistants to Splunk Cloud using a bearer token.
+- [Star Wars](https://docs.natoma.ai/apps/star-wars.md)
+- [Statsig](https://docs.natoma.ai/apps/statsig.md): Connect AI assistants to Statsig feature management with OAuth.
+- [Stripe](https://docs.natoma.ai/apps/stripe.md)
+- [Supabase](https://docs.natoma.ai/apps/supabase.md)
+- [Supernova.io](https://docs.natoma.ai/apps/supernova.md): Connect AI assistants to a Supernova.io design system with OAuth.
+- [Tableau](https://docs.natoma.ai/apps/tableau.md): Connect AI assistants to Tableau using a Personal Access Token.
+- [Teradata](https://docs.natoma.ai/apps/teradata.md): Connect AI assistants to Teradata using a connection URI.
+- [Time](https://docs.natoma.ai/apps/time.md)
+- [US PTO](https://docs.natoma.ai/apps/us-pto.md)
+- [Webflow](https://docs.natoma.ai/apps/webflow.md)
+- [Wiz](https://docs.natoma.ai/apps/wiz.md)
+- [Wrike](https://docs.natoma.ai/apps/wrike.md): Connect AI assistants to Wrike work management with OAuth.
+- [Zoom](https://docs.natoma.ai/apps/zoom.md)
+- [Zoom (Remote)](https://docs.natoma.ai/apps/zoom-remote.md): Connect AI assistants to Zoom for meetings, recordings, and docs using a Zoom General App.
+- [Hidden](https://docs.natoma.ai/hidden/hidden.md)
+- [On Prem Deployments](https://docs.natoma.ai/hidden/on-prem.md): Deploy Natoma infrastructure on-premises within your own environment.
+- [Deploy Natoma On-Prem (Helm)](https://docs.natoma.ai/hidden/on-prem-helm.md): Deploy the Natoma on-premises agent using a Helm chart on Kubernetes, connecting to your self-hosted MCP servers.
+- [Deploy Natoma On-Prem (Amazon EKS)](https://docs.natoma.ai/hidden/on-prem-eks.md): Deploy the Natoma on-premises agent on Amazon EKS using a Helm chart pulled from Natoma's ECR repository.
+- [Natoma for Members](https://docs.natoma.ai/role-guides/natoma-for-members.md): What you can do as a Natoma user
+- [Natoma for Admins](https://docs.natoma.ai/role-guides/natoma-for-admins.md): Organization-wide AI governance
+- [Natoma for App Admins](https://docs.natoma.ai/role-guides/natoma-for-app-admins.md): Managing app-level AI access

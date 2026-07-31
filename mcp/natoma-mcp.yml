@@ -1,0 +1,44 @@
+generated: '2026-07-20'
+method: searched
+status: published
+source: https://docs.natoma.ai/connect-to-ai/getting-started
+summary: >-
+  Natoma is an enterprise MCP platform: it hosts managed and remote Model Context
+  Protocol servers and exposes a catalog of 100+ verified MCP server connectors that
+  AI clients (ChatGPT, Claude, Cursor, Gemini) connect to with centralized,
+  identity-aware access controls. Rather than a single tool set, Natoma provisions a
+  per-installation MCP server endpoint per connected app/connection.
+server:
+  name: natoma
+  transport: http
+  transports:
+  - http
+  - sse
+  - stdio (via the @natomalabs/natoma-mcp-gateway bridge)
+  host: https://api.natoma.app
+  auth:
+    oauth2:
+      issuer: https://api.natoma.app/oauth
+      authorization_endpoint: https://api.natoma.app/oauth/authorize
+      token_endpoint: https://api.natoma.app/oauth/token
+      registration_endpoint: https://api.natoma.app/oauth/register
+      grant_types: [authorization_code, refresh_token]
+      pkce: [S256, plain]
+      dynamic_client_registration: true
+    api_key:
+      env: NATOMA_MCP_API_KEY
+      note: Used by the stdio gateway; installation identified by NATOMA_MCP_SERVER_INSTALLATION_ID.
+catalog:
+  connectors: 100+
+  docs: https://docs.natoma.ai/catalog/_index
+  examples:
+  - GitHub, GitLab, Atlassian, Salesforce, Slack, Notion, Google Workspace,
+    Snowflake, Databricks, ServiceNow, HubSpot, Datadog, Sentry, Kubernetes
+gateway:
+  package: "@natomalabs/natoma-mcp-gateway"
+  install: npx @natomalabs/natoma-mcp-gateway --enterprise
+notes: >-
+  Tool surface is per-connector and provisioned per installation, so a single global
+  tool list is not published; the connector catalog is the authoritative surface.
+  Auth details verified from the live /.well-known/oauth-authorization-server document
+  (well-known/natoma-oauth-authorization-server.json).

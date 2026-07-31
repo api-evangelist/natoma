@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: searched
+probe: false
+url: https://natoma.ai/trust
+portal: https://app.vanta.com/natoma/trust/38bcz6lu2sjsvmeu47fpq
+platform: Vanta
+certifications:
+- SOC 2
+compliance:
+- GDPR
+- CCPA
+evidence:
+- source: https://natoma.ai/
+  keywords: [soc2 certified, gdpr, ccpa]
+- source: https://natoma.ai/trust
+  note: /trust 308-redirects to the company's Vanta Trust Center portal

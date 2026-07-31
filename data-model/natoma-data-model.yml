@@ -1,0 +1,52 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.natoma.ai/docs/core-concepts
+summary: >-
+  The Natoma platform's core object model for governing AI access to business tools
+  via MCP. Derived from the published Core Concepts reference; no OpenAPI is
+  published, so id-prefixes/domains are not asserted.
+entities:
+- name: Application
+  aka: [MCP Server, Connector]
+  description: An external business system exposed to AI clients via MCP/A2A; part of the 100+ connector catalog.
+- name: Connection
+  description: A configured instance granting specific users/groups access to an Application. Managed (admin-configured credentials) or Personal (single-user).
+- name: Profile
+  description: A named collection bundling multiple MCP-server Connections for distribution. Managed (admin) or Personal (max 5 per user).
+- name: Tool
+  description: An executable function an Application exposes to clients; visibility controlled at the Application level.
+- name: AIClient
+  aka: [LLM Client]
+  description: The interface a user acts through (ChatGPT, Claude, Cursor, Google Gemini).
+- name: User
+  description: An identity with access to one or more Connections; provisioned via SSO/SCIM.
+relationships:
+- from: Application
+  type: has_many
+  to: Connection
+  via: application
+- from: Application
+  type: has_many
+  to: Tool
+  via: application
+- from: Connection
+  type: belongs_to
+  to: Application
+  via: application
+- from: Connection
+  type: has_many
+  to: User
+  via: users
+- from: Profile
+  type: has_many
+  to: Connection
+  via: connections
+- from: User
+  type: has_many
+  to: Connection
+  via: connections
+- from: AIClient
+  type: has_many
+  to: Tool
+  via: connection
+  note: An AI client invokes Tools via a Connection on behalf of a User.

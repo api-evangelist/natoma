@@ -1,0 +1,43 @@
+generated: '2026-07-20'
+method: searched
+source: https://api.natoma.app/.well-known/oauth-authorization-server
+docs: https://docs.natoma.ai/docs/enterprise/secure-access-to-natoma
+summary:
+  types: [oauth2, apiKey, saml2, scim]
+  api_key_in: [env]
+  oauth2_flows: [authorizationCode]
+schemes:
+- name: PlatformOAuth2
+  type: oauth2
+  flow: authorizationCode
+  issuer: https://api.natoma.app/oauth
+  authorization_url: https://api.natoma.app/oauth/authorize
+  token_url: https://api.natoma.app/oauth/token
+  registration_url: https://api.natoma.app/oauth/register
+  revocation_url: https://api.natoma.app/oauth/revoke
+  introspection_url: https://api.natoma.app/oauth/introspect
+  pkce: [S256, plain]
+  dynamic_client_registration: true
+  token_endpoint_auth_methods: [none]
+  note: >-
+    OAuth 2.1-style authorization server the Natoma MCP platform advertises via
+    RFC 8414 metadata; public clients (token_endpoint_auth_method none) with PKCE and
+    RFC 7591 Dynamic Client Registration. Used by remote MCP clients.
+- name: ApiKey
+  type: apiKey
+  in: env
+  name_field: NATOMA_MCP_API_KEY
+  note: API key used by the stdio gateway (@natomalabs/natoma-mcp-gateway) to authenticate to the platform.
+- name: SAML2 SSO
+  type: saml2
+  note: >-
+    SAML 2.0 SSO for the Natoma console via Microsoft Entra ID and the Okta
+    Integration Network (OIN). Docs: entra-sso, okta-sso.
+- name: SCIM
+  type: scim
+  note: >-
+    SCIM 2.0 user/role provisioning from Microsoft Entra ID and Okta (group- and
+    attribute-based role mapping to Natoma roles).
+per_connector_auth: >-
+  Each catalog connector authenticates to its downstream app independently (OAuth,
+  scoped API key, service-account key, or PAT), managed centrally by Natoma.

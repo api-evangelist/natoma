@@ -1,0 +1,37 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/package/@natomalabs/natoma-mcp-gateway
+name: Natoma MCP Gateway
+summary: >-
+  First-party command-line gateway (npx @natomalabs/natoma-mcp-gateway) that lets
+  stdio-based MCP clients such as Claude Desktop and Cursor reach the HTTP/SSE MCP
+  servers hosted on the Natoma platform. The binary is catalogued in
+  packages/natoma-packages.yml.
+install:
+- method: npm
+  command: npm install @natomalabs/natoma-mcp-gateway
+- method: npx
+  command: npx @natomalabs/natoma-mcp-gateway --enterprise
+invocation: npx @natomalabs/natoma-mcp-gateway --enterprise
+flags:
+- flag: "--enterprise"
+  required: true
+  description: Runs the gateway in enterprise mode (the only supported mode).
+env:
+- name: NATOMA_MCP_SERVER_INSTALLATION_ID
+  required: true
+  description: The MCP server installation ID / slug to connect to.
+- name: NATOMA_MCP_API_KEY
+  required: true
+  description: Natoma API key used to authenticate to the platform.
+- name: NATOMA_MCP_CUSTOM_URL
+  required: false
+  description: Overrides the default api.natoma.app endpoint (for private deployments).
+- name: NODE_EXTRA_CA_CERTS
+  required: false
+  description: Path to a corporate CA bundle for TLS-intercepting proxies (ZScaler, etc).
+capabilities:
+- Protocol translation between stdio JSON-RPC and HTTP/SSE
+- Automatic reconnection and health-check monitoring (every 5 minutes)
+- Extended 60s timeouts and enhanced error recovery
+- Custom endpoint support for private / on-prem deployments

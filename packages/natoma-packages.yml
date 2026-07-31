@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/package/@natomalabs/natoma-mcp-gateway
+packages:
+- language: javascript
+  registry: npm
+  name: "@natomalabs/natoma-mcp-gateway"
+  version: 1.0.5
+  license: MIT
+  url: https://www.npmjs.com/package/@natomalabs/natoma-mcp-gateway
+  install: npm install @natomalabs/natoma-mcp-gateway
+  official: true
+  description: >-
+    Production-ready gateway that bridges stdio-based MCP clients (Claude Desktop,
+    Cursor) with the HTTP/SSE-based MCP servers hosted on the Natoma platform
+    (default endpoint api.natoma.app). Runs in enterprise mode with automatic
+    reconnection, health monitoring, and protocol translation.
+  bin: main
+  first_published: '2025-03-26'
+  last_published: '2025-12-23'
+  runtime_deps:
+  - "@modelcontextprotocol/sdk"
+  - express
+  - eventsource

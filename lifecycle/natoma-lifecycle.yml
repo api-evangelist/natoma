@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: https://natomalabs.statuspage.io/ + https://docs.natoma.ai
+status_page: https://natomalabs.statuspage.io/
+status_page_platform: Atlassian Statuspage
+versioning:
+  scheme: continuous
+  note: >-
+    Natoma is a managed SaaS MCP platform released continuously; no public dated API
+    version scheme is published. The stdio gateway package is semver-versioned on npm
+    (current 1.0.5).
+deprecation:
+  policy_url: null
+  note: No formal public deprecation / Sunset-header policy located.
+notes: >-
+  Individual catalog connectors are marked Legacy/Community/Official in the docs
+  (e.g. GitLab Legacy) as an informal lifecycle signal, but there is no centralized
+  deprecation policy page.
