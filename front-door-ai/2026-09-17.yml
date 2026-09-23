@@ -1,0 +1,36 @@
+# Front Door AI Index — natoma — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: natoma
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: natoma.ai
+  final_host: natoma.ai
+  ownership: own
+  owner: natoma
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 126
+  host_score: 126
+  density: 103.53
+  words: 1217
+  tiers:
+    agentic: 51
+    core: 59
+    model: 16
+  ambiguous: 12
+  top_terms:
+    AI: 59
+    MCP: 26
+    agentic: 12
+    agent: 11
+    Claude: 6
+    ChatGPT: 5
+    AI agent: 4
+    Anthropic: 3
+    RAG: 3
+    model context protocol: 3
+    OpenAI: 2
+    AI assistant: 1
