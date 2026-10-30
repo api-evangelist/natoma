@@ -64,6 +64,98 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Natoma is a company surfaced as a portfolio company of greylock, index-ventures, norwest-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting the enrichment pipeline.
+Natoma is an enterprise Model Context Protocol (MCP) platform that lets organizations securely connect AI agents and assistants (ChatGPT, Claude, Cursor, and internal agents) to company data and business tools. It provides one-click deployment of managed and remote MCP servers, a catalog of 100+ verified MCP server connectors with automatic authentication, centralized identity-aware access controls, role-based tool profiles, shadow-AI discovery, and audit trails with SIEM integration. Natoma is a cybersecurity company backed by Greylock, Index Ventures, and Norwest Venture Partners. It is SOC 2 certified and GDPR/CCPA compliant, with SSO/SCIM provisioning via Microsoft Entra and Okta and on-premises deployment options.
 
-Backed by: greylock, index-ventures, norwest-venture-partners — https://natoma.ai/
+**Areas:** Company · Cybersecurity · MCP · AI Agents · Identity · Identity and Access Management · Governance · Security
+
+## Natoma on APIs.io
+
+Everything profiled for Natoma is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/natoma/](https://apis.io/providers/natoma/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [natoma](https://apis.io/servers/natoma/natoma/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Natoma Authentication](https://apis.io/security/natoma/natoma-authentication/)
+- [Natoma Domain Security](https://apis.io/security/natoma/natoma-domain-security/)
+- [Natoma Trust Center](https://apis.io/security/natoma/natoma-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://natoma.ai/)
+- [Documentation](https://docs.natoma.ai)
+- [Getting started](https://docs.natoma.ai/connect-to-ai/getting-started)
+- [Pricing](https://natoma.ai/pricing)
+- [Sign up](https://natoma.ai/book-a-demo)
+- [Support](https://docs.natoma.ai/support/contact-us)
+- [Blog](https://natoma.ai/blog)
+- [Compliance](https://natoma.ai/trust)
+- [Terms of service](https://natoma.ai/terms-of-service)
+- [Privacy policy](https://natoma.ai/privacy-policy)
+- [GitHub](https://github.com/natomalabs)
+- [Status](https://natomalabs.statuspage.io/)
+
+## API Evangelist rating
+
+**Kin Score 35.8** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 60.5 |
+
+**Agent readiness 15.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/natoma/](https://apis.io/providers/natoma/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Natoma: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/natoma/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
